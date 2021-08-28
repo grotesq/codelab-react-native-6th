@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import BoxOfficeItem from '../components/BoxOfficeItem';
 import useFetch, {prefetch} from '../net/useFetch';
 import Paragraph from '../components/ui/Paragraph';
-import { ActivityIndicator, Text, View } from "react-native";
-import tw from "tailwind-react-native-classnames";
+import {ActivityIndicator, Text, View} from 'react-native';
+import tw from 'tailwind-react-native-classnames';
 
 export default function BoxOffice() {
   const url =
