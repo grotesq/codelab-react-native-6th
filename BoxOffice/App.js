@@ -8,10 +8,10 @@
 
 import type {Node} from 'react';
 import React from 'react';
-import BoxOffice from './src/screens/BoxOffice';
+import RootContainer from './src/navigations/RootContainer';
 
 const App: () => Node = () => {
-  return <BoxOffice />;
+  return <RootContainer />;
 };
 
 export default App;
